@@ -12,7 +12,6 @@ The project requirement was a basic calculator (display screen, clickable button
 ## Table of Contents
 
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Requirements](#requirements)
 - [How to Run](#how-to-run)
 - [Keyboard Shortcuts](#keyboard-shortcuts)
@@ -88,28 +87,6 @@ Seven categories:
 - **Window mode:** the window is resizable (the whole canvas scales), and in a wide window a **History panel** opens on the right
 - Smooth sliding animation between tabs
 - Keyboard and clipboard support
-
----
-
-## Screenshots
-
-Add your screenshots to a `screenshots` folder and the images below will show.
-
-| Home | Scientific | Trigo |
-|---|---|---|
-| ![Home](screenshots/home.png) | ![Scientific](screenshots/scientific.png) | ![Trigo](screenshots/trigo.png) |
-
-| Func | History | Converter |
-|---|---|---|
-| ![Func](screenshots/func.png) | ![History](screenshots/history.png) | ![Converter](screenshots/converter.png) |
-
-| Maths Graph | Data Graph | Dark and Light |
-|---|---|---|
-| ![Maths Graph](screenshots/maths_graph.png) | ![Data Graph](screenshots/data_graph.png) | ![Themes](screenshots/themes.png) |
-
-| Window mode |
-|---|
-| ![Window mode](screenshots/window_mode.png) |
 
 ---
 
