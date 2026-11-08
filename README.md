@@ -1,6 +1,6 @@
 # NextHikes_Project_2 – Advanced Calculator
 
-A desktop calculator built with **Python** and **Tkinter** as **Project 2** of **NextHikes IT Solutions**.
+A desktop calculator built with **Python** and **Tkinter** as **Project ** of **NextHikes IT Solutions**.
 
 The project requirement was a basic calculator (display screen, clickable buttons, core operations, equals and clear). This version goes much further: scientific functions, history, a unit and currency converter, a maths graph, a data graph, a dark and light theme and a resizable window. Every key and screen is drawn in code on a Tkinter `Canvas`, so the look is fully custom.
 
