@@ -172,7 +172,6 @@ NextHikes_Project_2/
 ├── NEXT HIKE IT SOLUTION PROJECT/
 │   ├── advanced_calculator.py      # the calculator (single script)
 │   └── Advanced_Calculator.pptx    # project presentation
-├── screenshots/                    # images used in this README
 ├── LICENSE
 └── README.md
 ```
