@@ -1,5 +1,9 @@
-# Advanced Calculator, Using Python with Tkinter Library
-
+"""
+Advanced Calculator, Using Python with Tkinter Library
+Features: basic/scientific/trig calculator, unit converter (live currency),
+function grapher, CSV/Excel data charts, history, dark/light theme.
+Run: python calculator.py 
+"""
 import math
 import ast
 import operator
@@ -206,6 +210,7 @@ def disc(amount, pct):
     return amount * (1 - pct / 100)
 
 def emi(principal, rate, months):
+    """Monthly EMI for a loan. rate is yearly %, months is tenure."""
     n = to_int(months)
     if principal < 0 or rate < 0 or n <= 0 or n > 1200:
         raise ValueError
@@ -219,6 +224,9 @@ def chg(old, new):
     if old == 0:
         raise ValueError
     return (new - old) / abs(old) * 100
+
+"""Evaluate an AST node using only whitelisted operators/functions.
+Safe replacement for eval(); raises ValueError on anything else."""
 
 def safe_eval(node, consts , funcs):
     ev = lambda n: safe_eval(n, consts, funcs)
